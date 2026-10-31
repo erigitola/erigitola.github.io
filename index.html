@@ -1,0 +1,237 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wahab Olatunji | Data Analyst</title>
+  <meta name="description" content="Portfolio of Wahab Olatunji, Finance and Data Analyst.">
+  <style>
+    :root {
+      --navy: #101b2d;
+      --blue: #2563eb;
+      --light: #f4f7fb;
+      --text: #263449;
+      --muted: #65748b;
+      --white: #ffffff;
+    }
+
+    * { box-sizing: border-box; scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: var(--light);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    a { color: var(--blue); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    header {
+      background: var(--navy);
+      color: white;
+      padding: 18px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    header strong { font-size: 20px; }
+    nav { display: flex; flex-wrap: wrap; gap: 18px; }
+    nav a { color: white; font-size: 14px; }
+
+    .hero {
+      background: var(--navy);
+      color: white;
+      padding: 85px 8% 95px;
+    }
+
+    .hero h1 { font-size: clamp(34px, 6vw, 54px); margin: 8px 0; }
+    .hero p { max-width: 650px; color: #d4deed; }
+    .tag { color: #93b7ff; font-weight: bold; }
+
+    .button {
+      display: inline-block;
+      background: var(--blue);
+      color: white;
+      padding: 11px 18px;
+      border-radius: 7px;
+      margin: 12px 8px 0 0;
+    }
+
+    .button.secondary {
+      background: transparent;
+      border: 1px solid #b7c8e5;
+    }
+
+    main { max-width: 1100px; margin: auto; padding: 20px; }
+    section { padding: 45px 0; }
+    h2 { color: var(--navy); font-size: 28px; margin-bottom: 12px; }
+    .intro { color: var(--muted); max-width: 760px; }
+
+    .skills, .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+      margin-top: 22px;
+    }
+
+    .card {
+      background: white;
+      padding: 22px;
+      border-radius: 12px;
+      border: 1px solid #e2e8f0;
+      box-shadow: 0 4px 15px rgba(16, 27, 45, 0.04);
+    }
+
+    .card h3 { margin-top: 0; color: var(--navy); }
+    .card p { color: var(--muted); font-size: 14px; }
+    .tag-list { display: flex; flex-wrap: wrap; gap: 9px; margin-top: 18px; }
+    .tag-list span {
+      background: #e7efff;
+      color: #1d4ed8;
+      border-radius: 20px;
+      padding: 5px 12px;
+      font-size: 13px;
+    }
+
+    .resume-box, .contact-box {
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+      border: 1px solid #e2e8f0;
+    }
+
+    footer {
+      background: var(--navy);
+      color: #d4deed;
+      text-align: center;
+      padding: 25px;
+      margin-top: 30px;
+      font-size: 14px;
+    }
+
+    @media (max-width: 600px) {
+      header { padding: 18px 5%; }
+      nav { gap: 12px; }
+      .hero { padding: 60px 6%; }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <strong>Wahab Olatunji</strong>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#resume">Resume</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <p class="tag">FINANCE & DATA ANALYST</p>
+    <h1>Hello, I'm Wahab Olatunji.</h1>
+    <p>
+      I use data to understand business problems, analyse performance,
+      and support better decisions. I am also developing my knowledge
+      of Data Science and Artificial Intelligence.
+    </p>
+    <a class="button" href="#projects">Explore My Projects</a>
+    <a class="button secondary" href="#contact">Contact Me</a>
+  </div>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p class="intro">
+        I have practical experience in finance and accounting operations,
+        including financial reporting, budget monitoring, reconciliation,
+        and inventory analysis. I use data tools to organise information,
+        investigate problems, and communicate useful findings.
+        I enjoy learning new technologies and applying analytical skills
+        to real business challenges.
+      </p>
+    </section>
+
+    <section id="skills">
+      <h2>Technical Skills</h2>
+      <div class="skills">
+        <div class="card"><h3>Excel & Power Query</h3><p>Financial reporting, data cleaning and transformation.</p></div>
+        <div class="card"><h3>SQL</h3><p>Data querying, validation, analysis and reconciliation.</p></div>
+        <div class="card"><h3>Python</h3><p>Data analysis and visualisation.</p></div>
+        <div class="card"><h3>Tableau</h3><p>Interactive dashboards and data visualisation.</p></div>
+        <div class="card"><h3>Make</h3><p>Workflow automation and reducing repetitive tasks.</p></div>
+      </div>
+    </section>
+
+    <section id="resume">
+      <h2>My Resume</h2>
+      <div class="resume-box">
+        <h3>Wahab Olatunji</h3>
+        <p>
+          Finance and Data Analyst with experience in financial operations,
+          reporting, reconciliation and business data analysis.
+        </p>
+        <p><strong>Education:</strong> Diploma in Accounting, Yaba College of Technology.
+          HND in Accountancy – In Progress.</p>
+        <p><strong>Work:</strong> Accounting Officer, Finance Department –
+          Daytona Peoples Pharmacy / Daytona Supermarket.</p>
+        <p>
+          To add a downloadable PDF, upload your résumé to this repository
+          and replace the link below with its file path.
+        </p>
+        <a class="button" href="Wahab_Olatunji_Resume.pdf">Download Resume</a>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>My Projects</h2>
+      <p class="intro">
+        Explore my dashboards, analysis and coding projects.
+      </p>
+      <div class="projects">
+        <div class="card">
+          <h3>Tableau Portfolio</h3>
+          <p>Explore my interactive dashboards and data visualisation work.</p>
+          <a href="https://public.tableau.com/app/profile/erigitola.wahab.olatunji4989"
+             target="_blank" rel="noopener">View Tableau Projects →</a>
+        </div>
+        <div class="card">
+          <h3>GitHub Projects</h3>
+          <p>Explore my coding work, SQL practice and Python projects.</p>
+          <a href="https://github.com/erigitola"
+             target="_blank" rel="noopener">View GitHub →</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <div class="contact-box">
+        <p>I'm interested in learning, collaborating and solving data problems.</p>
+        <p><strong>Location:</strong> Lagos, Nigeria</p>
+        <p><a href="https://www.linkedin.com/in/erigitola-wahab-64703a272/"
+          target="_blank" rel="noopener">LinkedIn Profile</a></p>
+        <p><a href="https://github.com/erigitola"
+          target="_blank" rel="noopener">GitHub Profile</a></p>
+        <p>Email: 
+  <a href="mailto:wahabolatunji70@gmail.com">
+    wahabolatunji70@gmail.com
+  </a>
+</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 Wahab Olatunji. All rights reserved.
+  </footer>
+</body>
+</html>
